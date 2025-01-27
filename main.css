@@ -185,22 +185,21 @@ SECTION WRAPS
 
 /* Header Wrap */
 .header {
-background: url(../assets/cocoa-beach-me.jpg) no-repeat center top;
-padding-top: 10vw;
-padding-bottom: 10vw;
-text-align: center;
-background-color: #222222 !important;
-background-attachment: relative;
-background-position: center center;
-min-height: 20vw;
-width: 100%;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-display: flex;
-}
+  background: url(../assets/cocoa-beach-me.jpg) no-repeat center top;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+  text-align: center;
+  background-color: #222222 !important;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 20vw;
+  width: 100%;
 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 @media only screen and (max-width: 768px) {
 .header {
 background-size: 100% auto;

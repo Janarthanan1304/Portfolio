@@ -200,7 +200,13 @@ SECTION WRAPS
   -o-background-size: cover;
   background-size: cover;
 }
-
+@media only screen and (max-width: 768px) {
+.header {
+background-size: 100% auto;
+background-position: center;
+height: 100vh; /* or a fixed height */
+}
+}
 .header h1 {
   font-size: 80px;
   color: white;
